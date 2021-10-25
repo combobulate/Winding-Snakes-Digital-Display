@@ -4,9 +4,7 @@
  ![Gif of the display behavior](display.gif)
 
 # Overview
-This code uses logic and design from the VHDLWhiz "Hands-on for absolute beginners" fast-track course:
-https://academy.vhdlwhiz.com/fast-track
-This (highly recommended) course walks students through programming an FPGA to display a counter incrementing from 00 through 99 every second. The design and logic for the snakelike winding are my own contribution.
+This code uses logic and design from the [VHDLWhiz "Hands-on for absolute beginners" fast-track course](https://academy.vhdlwhiz.com/fast-track). This (highly recommended) course walks students through programming an FPGA to display a counter incrementing from 00 through 99 every second. The design and logic for the snakelike winding are my own contribution.
 
 As I'm still very new to VHDL, my goals for this project were:
 * Develop logic that uses different timing behavior from that used in the course. This was accomplished by experimenting to identify timing that made the snakelike winding appear fluid without being too fast, even though it is still clearly discrete still frames.
